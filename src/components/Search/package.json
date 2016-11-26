@@ -1,0 +1,9 @@
+{
+  "name": "Search",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./Search.js",
+  "scripts": {
+    "buildy": "node-sass --include-path scss scss/react-widgets.scss   react-widgets.css"
+  }
+}

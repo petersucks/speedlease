@@ -1,0 +1,5030 @@
+// US, Europe
+
+[
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "auburn",
+		"short": "auburn",
+		"href": "http://auburn.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "birmingham",
+		"short": "bham",
+		"href": "http://bham.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "dothan",
+		"short": "dothan",
+		"href": "http://dothan.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "florence / muscle shoals",
+		"short": "shoals",
+		"href": "http://shoals.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "gadsden-anniston",
+		"short": "gadsden",
+		"href": "http://gadsden.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "huntsville / decatur",
+		"short": "huntsville",
+		"href": "http://huntsville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "mobile",
+		"short": "mobile",
+		"href": "http://mobile.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "montgomery",
+		"short": "montgomery",
+		"href": "http://montgomery.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alabama",
+		"long": "tuscaloosa",
+		"short": "tuscaloosa",
+		"href": "http://tuscaloosa.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alaska",
+		"long": "anchorage / mat-su",
+		"short": "anchorage",
+		"href": "http://anchorage.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alaska",
+		"long": "fairbanks",
+		"short": "fairbanks",
+		"href": "http://fairbanks.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alaska",
+		"long": "kenai peninsula",
+		"short": "kenai",
+		"href": "http://kenai.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Alaska",
+		"long": "southeast alaska",
+		"short": "juneau",
+		"href": "http://juneau.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "flagstaff / sedona",
+		"short": "flagstaff",
+		"href": "http://flagstaff.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "mohave county",
+		"short": "mohave",
+		"href": "http://mohave.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "phoenix",
+		"short": "phoenix",
+		"href": "http://phoenix.craigslist.org/",
+		"hoods": [
+			{
+				"long": "central/south phx",
+				"short": "cph"
+			},
+			{
+				"long": "east valley",
+				"short": "evl"
+			},
+			{
+				"long": "phx north",
+				"short": "nph"
+			},
+			{
+				"long": "west valley",
+				"short": "wvl"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "prescott",
+		"short": "prescott",
+		"href": "http://prescott.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "show low",
+		"short": "showlow",
+		"href": "http://showlow.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "sierra vista",
+		"short": "sierravista",
+		"href": "http://sierravista.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "tucson",
+		"short": "tucson",
+		"href": "http://tucson.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arizona",
+		"long": "yuma",
+		"short": "yuma",
+		"href": "http://yuma.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arkansas",
+		"long": "fayetteville ",
+		"short": "fayar",
+		"href": "http://fayar.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arkansas",
+		"long": "fort smith",
+		"short": "fortsmith",
+		"href": "http://fortsmith.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arkansas",
+		"long": "jonesboro",
+		"short": "jonesboro",
+		"href": "http://jonesboro.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arkansas",
+		"long": "little rock",
+		"short": "littlerock",
+		"href": "http://littlerock.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Arkansas",
+		"long": "texarkana",
+		"short": "texarkana",
+		"href": "http://texarkana.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "bakersfield",
+		"short": "bakersfield",
+		"href": "http://bakersfield.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "chico",
+		"short": "chico",
+		"href": "http://chico.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "fresno / madera",
+		"short": "fresno",
+		"href": "http://fresno.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "gold country",
+		"short": "goldcountry",
+		"href": "http://goldcountry.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "hanford-corcoran",
+		"short": "hanford",
+		"href": "http://hanford.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "humboldt county",
+		"short": "humboldt",
+		"href": "http://humboldt.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "imperial county",
+		"short": "imperial",
+		"href": "http://imperial.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "inland empire",
+		"short": "inlandempire",
+		"href": "http://inlandempire.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "los angeles",
+		"short": "losangeles",
+		"href": "http://losangeles.craigslist.org/",
+		"hoods": [
+			{
+				"long": "westside-southbay",
+				"short": "wst"
+			},
+			{
+				"long": "SF valley",
+				"short": "sfv"
+			},
+			{
+				"long": "central LA",
+				"short": "lac"
+			},
+			{
+				"long": "san gabriel valley",
+				"short": "sgv"
+			},
+			{
+				"long": "long beach / 562",
+				"short": "lgb"
+			},
+			{
+				"long": "antelope valley",
+				"short": "ant"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "mendocino county",
+		"short": "mendocino",
+		"href": "http://mendocino.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "merced",
+		"short": "merced",
+		"href": "http://merced.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "modesto",
+		"short": "modesto",
+		"href": "http://modesto.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "monterey bay",
+		"short": "monterey",
+		"href": "http://monterey.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "orange county",
+		"short": "orangecounty",
+		"href": "http://orangecounty.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "palm springs",
+		"short": "palmsprings",
+		"href": "http://palmsprings.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "redding",
+		"short": "redding",
+		"href": "http://redding.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "sacramento",
+		"short": "sacramento",
+		"href": "http://sacramento.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "san diego",
+		"short": "sandiego",
+		"href": "http://sandiego.craigslist.org/",
+		"hoods": [
+			{
+				"long": "city of san diego",
+				"short": "csd"
+			},
+			{
+				"long": "north SD county",
+				"short": "nsd"
+			},
+			{
+				"long": "east SD county",
+				"short": "esd"
+			},
+			{
+				"long": "south SD county",
+				"short": "ssd"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "san francisco bay area",
+		"short": "sfbay",
+		"href": "http://sfbay.craigslist.org/",
+		"hoods": [
+			{
+				"long": "san francisco",
+				"short": "sfc"
+			},
+			{
+				"long": "south bay",
+				"short": "sby"
+			},
+			{
+				"long": "east bay",
+				"short": "eby"
+			},
+			{
+				"long": "peninsula",
+				"short": "pen"
+			},
+			{
+				"long": "north bay",
+				"short": "nby"
+			},
+			{
+				"long": "santa cruz",
+				"short": "scz"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "san luis obispo",
+		"short": "slo",
+		"href": "http://slo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "santa barbara",
+		"short": "santabarbara",
+		"href": "http://santabarbara.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "santa maria",
+		"short": "santamaria",
+		"href": "http://santamaria.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "siskiyou county",
+		"short": "siskiyou",
+		"href": "http://siskiyou.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "stockton",
+		"short": "stockton",
+		"href": "http://stockton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "susanville",
+		"short": "susanville",
+		"href": "http://susanville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "ventura county",
+		"short": "ventura",
+		"href": "http://ventura.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "visalia-tulare",
+		"short": "visalia",
+		"href": "http://visalia.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "California",
+		"long": "yuba-sutter",
+		"short": "yubasutter",
+		"href": "http://yubasutter.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "boulder",
+		"short": "boulder",
+		"href": "http://boulder.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "colorado springs",
+		"short": "cosprings",
+		"href": "http://cosprings.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "denver",
+		"short": "denver",
+		"href": "http://denver.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "eastern CO",
+		"short": "eastco",
+		"href": "http://eastco.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "fort collins / north CO",
+		"short": "fortcollins",
+		"href": "http://fortcollins.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "high rockies",
+		"short": "rockies",
+		"href": "http://rockies.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "pueblo",
+		"short": "pueblo",
+		"href": "http://pueblo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Colorado",
+		"long": "western slope",
+		"short": "westslope",
+		"href": "http://westslope.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Connecticut",
+		"long": "eastern CT",
+		"short": "newlondon",
+		"href": "http://newlondon.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Connecticut",
+		"long": "hartford",
+		"short": "hartford",
+		"href": "http://hartford.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Connecticut",
+		"long": "new haven",
+		"short": "newhaven",
+		"href": "http://newhaven.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Connecticut",
+		"long": "northwest CT",
+		"short": "nwct",
+		"href": "http://nwct.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Delaware",
+		"long": "delaware",
+		"short": "delaware",
+		"href": "http://delaware.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "District of Columbia",
+		"long": "washington",
+		"short": "washingtondc",
+		"href": "http://washingtondc.craigslist.org/",
+		"hoods": [
+			{
+				"long": "district of columbia",
+				"short": "doc"
+			},
+			{
+				"long": "northern virginia",
+				"short": "nva"
+			},
+			{
+				"long": "maryland",
+				"short": "mld"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "broward county",
+		"short": "miami",
+		"href": "http://miami.craigslist.org/brw",
+		"hoods": [
+			{
+				"long": "miami / dade",
+				"short": "mdc"
+			},
+			{
+				"long": "palm beach co",
+				"short": "pbc"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "daytona beach",
+		"short": "daytona",
+		"href": "http://daytona.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "florida keys",
+		"short": "keys",
+		"href": "http://keys.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "ft myers / SW florida",
+		"short": "fortmyers",
+		"href": "http://fortmyers.craigslist.org/",
+		"hoods": [
+			{
+				"long": "lee county",
+				"short": "lee"
+			},
+			{
+				"long": "charlotte co",
+				"short": "chl"
+			},
+			{
+				"long": "collier co",
+				"short": "col"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "gainesville",
+		"short": "gainesville",
+		"href": "http://gainesville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "heartland florida",
+		"short": "cfl",
+		"href": "http://cfl.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "jacksonville",
+		"short": "jacksonville",
+		"href": "http://jacksonville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "lakeland",
+		"short": "lakeland",
+		"href": "http://lakeland.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "north central FL",
+		"short": "lakecity",
+		"href": "http://lakecity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "ocala",
+		"short": "ocala",
+		"href": "http://ocala.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "okaloosa / walton",
+		"short": "okaloosa",
+		"href": "http://okaloosa.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "orlando",
+		"short": "orlando",
+		"href": "http://orlando.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "panama city",
+		"short": "panamacity",
+		"href": "http://panamacity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "pensacola",
+		"short": "pensacola",
+		"href": "http://pensacola.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "sarasota-bradenton",
+		"short": "sarasota",
+		"href": "http://sarasota.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "south florida",
+		"short": "miami",
+		"href": "http://miami.craigslist.org/",
+		"hoods": [
+			{
+				"long": "miami / dade",
+				"short": "mdc"
+			},
+			{
+				"long": "broward county",
+				"short": "brw"
+			},
+			{
+				"long": "palm beach co",
+				"short": "pbc"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "space coast",
+		"short": "spacecoast",
+		"href": "http://spacecoast.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "st augustine",
+		"short": "staugustine",
+		"href": "http://staugustine.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "tallahassee",
+		"short": "tallahassee",
+		"href": "http://tallahassee.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "tampa bay area",
+		"short": "tampa",
+		"href": "http://tampa.craigslist.org/",
+		"hoods": [
+			{
+				"long": "hernando co",
+				"short": "hdo"
+			},
+			{
+				"long": "hillsborough co",
+				"short": "hil"
+			},
+			{
+				"long": "pasco co",
+				"short": "psc"
+			},
+			{
+				"long": "pinellas co",
+				"short": "pnl"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "treasure coast",
+		"short": "treasure",
+		"href": "http://treasure.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Florida",
+		"long": "palm beach county",
+		"short": "miami",
+		"href": "http://miami.craigslist.org/pbc",
+		"hoods": [
+			{
+				"long": "miami / dade",
+				"short": "mdc"
+			},
+			{
+				"long": "broward county",
+				"short": "brw"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "albany ",
+		"short": "albanyga",
+		"href": "http://albanyga.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "athens",
+		"short": "athensga",
+		"href": "http://athensga.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "atlanta",
+		"short": "atlanta",
+		"href": "http://atlanta.craigslist.org/",
+		"hoods": [
+			{
+				"long": "atlanta",
+				"short": "atl"
+			},
+			{
+				"long": "otp north",
+				"short": "nat"
+			},
+			{
+				"long": "otp east",
+				"short": "eat"
+			},
+			{
+				"long": "otp south",
+				"short": "sat"
+			},
+			{
+				"long": "otp west",
+				"short": "wat"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "augusta",
+		"short": "augusta",
+		"href": "http://augusta.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "brunswick",
+		"short": "brunswick",
+		"href": "http://brunswick.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "columbus ",
+		"short": "columbusga",
+		"href": "http://columbusga.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "macon / warner robins",
+		"short": "macon",
+		"href": "http://macon.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "northwest GA",
+		"short": "nwga",
+		"href": "http://nwga.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "savannah / hinesville",
+		"short": "savannah",
+		"href": "http://savannah.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "statesboro",
+		"short": "statesboro",
+		"href": "http://statesboro.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Georgia",
+		"long": "valdosta",
+		"short": "valdosta",
+		"href": "http://valdosta.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Hawaii",
+		"long": "hawaii",
+		"short": "honolulu",
+		"href": "http://honolulu.craigslist.org/",
+		"hoods": [
+			{
+				"long": "oahu",
+				"short": "oah"
+			},
+			{
+				"long": "big island",
+				"short": "big"
+			},
+			{
+				"long": "maui",
+				"short": "mau"
+			},
+			{
+				"long": "kauai",
+				"short": "kau"
+			},
+			{
+				"long": "molokai",
+				"short": "mol"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Idaho",
+		"long": "boise",
+		"short": "boise",
+		"href": "http://boise.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Idaho",
+		"long": "east idaho",
+		"short": "eastidaho",
+		"href": "http://eastidaho.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Idaho",
+		"long": "lewiston / clarkston",
+		"short": "lewiston",
+		"href": "http://lewiston.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Idaho",
+		"long": "twin falls",
+		"short": "twinfalls",
+		"href": "http://twinfalls.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "bloomington-normal",
+		"short": "bn",
+		"href": "http://bn.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "champaign urbana",
+		"short": "chambana",
+		"href": "http://chambana.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "chicago",
+		"short": "chicago",
+		"href": "http://chicago.craigslist.org/",
+		"hoods": [
+			{
+				"long": "city of chicago",
+				"short": "chc"
+			},
+			{
+				"long": "north chicagoland",
+				"short": "nch"
+			},
+			{
+				"long": "west chicagoland",
+				"short": "wcl"
+			},
+			{
+				"long": "south chicagoland",
+				"short": "sox"
+			},
+			{
+				"long": "northwest indiana",
+				"short": "nwi"
+			},
+			{
+				"long": "northwest suburbs",
+				"short": "nwc"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "decatur",
+		"short": "decatur",
+		"href": "http://decatur.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "la salle co",
+		"short": "lasalle",
+		"href": "http://lasalle.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "mattoon-charleston",
+		"short": "mattoon",
+		"href": "http://mattoon.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "peoria",
+		"short": "peoria",
+		"href": "http://peoria.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "rockford",
+		"short": "rockford",
+		"href": "http://rockford.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "southern illinois",
+		"short": "carbondale",
+		"href": "http://carbondale.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "springfield ",
+		"short": "springfieldil",
+		"href": "http://springfieldil.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Illinois",
+		"long": "western IL",
+		"short": "quincy",
+		"href": "http://quincy.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "bloomington",
+		"short": "bloomington",
+		"href": "http://bloomington.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "evansville",
+		"short": "evansville",
+		"href": "http://evansville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "fort wayne",
+		"short": "fortwayne",
+		"href": "http://fortwayne.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "indianapolis",
+		"short": "indianapolis",
+		"href": "http://indianapolis.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "kokomo",
+		"short": "kokomo",
+		"href": "http://kokomo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "lafayette / west lafayette",
+		"short": "tippecanoe",
+		"href": "http://tippecanoe.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "muncie / anderson",
+		"short": "muncie",
+		"href": "http://muncie.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "richmond ",
+		"short": "richmondin",
+		"href": "http://richmondin.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "south bend / michiana",
+		"short": "southbend",
+		"href": "http://southbend.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Indiana",
+		"long": "terre haute",
+		"short": "terrehaute",
+		"href": "http://terrehaute.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "ames",
+		"short": "ames",
+		"href": "http://ames.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "cedar rapids",
+		"short": "cedarrapids",
+		"href": "http://cedarrapids.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "des moines",
+		"short": "desmoines",
+		"href": "http://desmoines.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "dubuque",
+		"short": "dubuque",
+		"href": "http://dubuque.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "fort dodge",
+		"short": "fortdodge",
+		"href": "http://fortdodge.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "iowa city",
+		"short": "iowacity",
+		"href": "http://iowacity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "mason city",
+		"short": "masoncity",
+		"href": "http://masoncity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "quad cities",
+		"short": "quadcities",
+		"href": "http://quadcities.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "sioux city",
+		"short": "siouxcity",
+		"href": "http://siouxcity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "southeast IA",
+		"short": "ottumwa",
+		"href": "http://ottumwa.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Iowa",
+		"long": "waterloo / cedar falls",
+		"short": "waterloo",
+		"href": "http://waterloo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "lawrence",
+		"short": "lawrence",
+		"href": "http://lawrence.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "manhattan",
+		"short": "ksu",
+		"href": "http://ksu.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "northwest KS",
+		"short": "nwks",
+		"href": "http://nwks.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "salina",
+		"short": "salina",
+		"href": "http://salina.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "southeast KS",
+		"short": "seks",
+		"href": "http://seks.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "southwest KS",
+		"short": "swks",
+		"href": "http://swks.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "topeka",
+		"short": "topeka",
+		"href": "http://topeka.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kansas",
+		"long": "wichita",
+		"short": "wichita",
+		"href": "http://wichita.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kentucky",
+		"long": "bowling green",
+		"short": "bgky",
+		"href": "http://bgky.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kentucky",
+		"long": "eastern kentucky",
+		"short": "eastky",
+		"href": "http://eastky.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kentucky",
+		"long": "lexington",
+		"short": "lexington",
+		"href": "http://lexington.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kentucky",
+		"long": "louisville",
+		"short": "louisville",
+		"href": "http://louisville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kentucky",
+		"long": "owensboro",
+		"short": "owensboro",
+		"href": "http://owensboro.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Kentucky",
+		"long": "western KY",
+		"short": "westky",
+		"href": "http://westky.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "baton rouge",
+		"short": "batonrouge",
+		"href": "http://batonrouge.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "central louisiana",
+		"short": "cenla",
+		"href": "http://cenla.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "houma",
+		"short": "houma",
+		"href": "http://houma.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "lafayette",
+		"short": "lafayette",
+		"href": "http://lafayette.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "lake charles",
+		"short": "lakecharles",
+		"href": "http://lakecharles.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "monroe",
+		"short": "monroe",
+		"href": "http://monroe.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "new orleans",
+		"short": "neworleans",
+		"href": "http://neworleans.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Louisiana",
+		"long": "shreveport",
+		"short": "shreveport",
+		"href": "http://shreveport.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maine",
+		"long": "maine",
+		"short": "maine",
+		"href": "http://maine.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maryland",
+		"long": "annapolis",
+		"short": "annapolis",
+		"href": "http://annapolis.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maryland",
+		"long": "baltimore",
+		"short": "baltimore",
+		"href": "http://baltimore.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maryland",
+		"long": "eastern shore",
+		"short": "easternshore",
+		"href": "http://easternshore.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maryland",
+		"long": "frederick",
+		"short": "frederick",
+		"href": "http://frederick.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maryland",
+		"long": "southern maryland",
+		"short": "smd",
+		"href": "http://smd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Maryland",
+		"long": "western maryland",
+		"short": "westmd",
+		"href": "http://westmd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Massachusetts",
+		"long": "boston",
+		"short": "boston",
+		"href": "http://boston.craigslist.org/",
+		"hoods": [
+			{
+				"long": "boston/camb/brook",
+				"short": "gbs"
+			},
+			{
+				"long": "northwest/merrimack",
+				"short": "nwb"
+			},
+			{
+				"long": "metro west",
+				"short": "bmw"
+			},
+			{
+				"long": "north shore",
+				"short": "nos"
+			},
+			{
+				"long": "south shore",
+				"short": "sob"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Massachusetts",
+		"long": "cape cod / islands",
+		"short": "capecod",
+		"href": "http://capecod.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Massachusetts",
+		"long": "south coast",
+		"short": "southcoast",
+		"href": "http://southcoast.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Massachusetts",
+		"long": "western massachusetts",
+		"short": "westernmass",
+		"href": "http://westernmass.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Massachusetts",
+		"long": "worcester / central MA",
+		"short": "worcester",
+		"href": "http://worcester.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "ann arbor",
+		"short": "annarbor",
+		"href": "http://annarbor.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "battle creek",
+		"short": "battlecreek",
+		"href": "http://battlecreek.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "central michigan",
+		"short": "centralmich",
+		"href": "http://centralmich.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "detroit metro",
+		"short": "detroit",
+		"href": "http://detroit.craigslist.org/",
+		"hoods": [
+			{
+				"long": "macomb co",
+				"short": "mcb"
+			},
+			{
+				"long": "wayne co",
+				"short": "wyn"
+			},
+			{
+				"long": "oakland co",
+				"short": "okl"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "flint",
+		"short": "flint",
+		"href": "http://flint.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "grand rapids",
+		"short": "grandrapids",
+		"href": "http://grandrapids.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "holland",
+		"short": "holland",
+		"href": "http://holland.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "jackson ",
+		"short": "jxn",
+		"href": "http://jxn.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "kalamazoo",
+		"short": "kalamazoo",
+		"href": "http://kalamazoo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "lansing",
+		"short": "lansing",
+		"href": "http://lansing.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "monroe ",
+		"short": "monroemi",
+		"href": "http://monroemi.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "muskegon",
+		"short": "muskegon",
+		"href": "http://muskegon.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "northern michigan",
+		"short": "nmi",
+		"href": "http://nmi.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "port huron",
+		"short": "porthuron",
+		"href": "http://porthuron.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "saginaw-midland-baycity",
+		"short": "saginaw",
+		"href": "http://saginaw.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "southwest michigan",
+		"short": "swmi",
+		"href": "http://swmi.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "the thumb",
+		"short": "thumb",
+		"href": "http://thumb.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Michigan",
+		"long": "upper peninsula",
+		"short": "up",
+		"href": "http://up.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "bemidji",
+		"short": "bemidji",
+		"href": "http://bemidji.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "brainerd",
+		"short": "brainerd",
+		"href": "http://brainerd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "duluth / superior",
+		"short": "duluth",
+		"href": "http://duluth.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "mankato",
+		"short": "mankato",
+		"href": "http://mankato.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "minneapolis / st paul",
+		"short": "minneapolis",
+		"href": "http://minneapolis.craigslist.org/",
+		"hoods": [
+			{
+				"long": "hennepin co",
+				"short": "hnp"
+			},
+			{
+				"long": "ramsey co",
+				"short": "ram"
+			},
+			{
+				"long": "anok/chis/isa",
+				"short": "ank"
+			},
+			{
+				"long": "washington/WI",
+				"short": "wsh"
+			},
+			{
+				"long": "dakota/scott",
+				"short": "dak"
+			},
+			{
+				"long": "carv/sher/wri",
+				"short": "csw"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "rochester ",
+		"short": "rmn",
+		"href": "http://rmn.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "southwest MN",
+		"short": "marshall",
+		"href": "http://marshall.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Minnesota",
+		"long": "st cloud",
+		"short": "stcloud",
+		"href": "http://stcloud.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Mississippi",
+		"long": "gulfport / biloxi",
+		"short": "gulfport",
+		"href": "http://gulfport.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Mississippi",
+		"long": "hattiesburg",
+		"short": "hattiesburg",
+		"href": "http://hattiesburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Mississippi",
+		"long": "jackson",
+		"short": "jackson",
+		"href": "http://jackson.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Mississippi",
+		"long": "meridian",
+		"short": "meridian",
+		"href": "http://meridian.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Mississippi",
+		"long": "north mississippi",
+		"short": "northmiss",
+		"href": "http://northmiss.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Mississippi",
+		"long": "southwest MS",
+		"short": "natchez",
+		"href": "http://natchez.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "columbia / jeff city",
+		"short": "columbiamo",
+		"href": "http://columbiamo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "joplin",
+		"short": "joplin",
+		"href": "http://joplin.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "kansas city",
+		"short": "kansascity",
+		"href": "http://kansascity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "kirksville",
+		"short": "kirksville",
+		"href": "http://kirksville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "lake of the ozarks",
+		"short": "loz",
+		"href": "http://loz.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "southeast missouri",
+		"short": "semo",
+		"href": "http://semo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "springfield",
+		"short": "springfield",
+		"href": "http://springfield.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "st joseph",
+		"short": "stjoseph",
+		"href": "http://stjoseph.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Missouri",
+		"long": "st louis",
+		"short": "stlouis",
+		"href": "http://stlouis.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "billings",
+		"short": "billings",
+		"href": "http://billings.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "bozeman",
+		"short": "bozeman",
+		"href": "http://bozeman.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "butte",
+		"short": "butte",
+		"href": "http://butte.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "great falls",
+		"short": "greatfalls",
+		"href": "http://greatfalls.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "helena",
+		"short": "helena",
+		"href": "http://helena.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "kalispell",
+		"short": "kalispell",
+		"href": "http://kalispell.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "missoula",
+		"short": "missoula",
+		"href": "http://missoula.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Montana",
+		"long": "eastern montana",
+		"short": "montana",
+		"href": "http://montana.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nebraska",
+		"long": "grand island",
+		"short": "grandisland",
+		"href": "http://grandisland.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nebraska",
+		"long": "lincoln",
+		"short": "lincoln",
+		"href": "http://lincoln.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nebraska",
+		"long": "north platte",
+		"short": "northplatte",
+		"href": "http://northplatte.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nebraska",
+		"long": "omaha / council bluffs",
+		"short": "omaha",
+		"href": "http://omaha.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nebraska",
+		"long": "scottsbluff / panhandle",
+		"short": "scottsbluff",
+		"href": "http://scottsbluff.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nevada",
+		"long": "elko",
+		"short": "elko",
+		"href": "http://elko.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nevada",
+		"long": "las vegas",
+		"short": "lasvegas",
+		"href": "http://lasvegas.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Nevada",
+		"long": "reno / tahoe",
+		"short": "reno",
+		"href": "http://reno.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Hampshire",
+		"long": "new hampshire",
+		"short": "nh",
+		"href": "http://nh.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Jersey",
+		"long": "central NJ",
+		"short": "cnj",
+		"href": "http://cnj.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Jersey",
+		"long": "jersey shore",
+		"short": "jerseyshore",
+		"href": "http://jerseyshore.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Jersey",
+		"long": "north jersey",
+		"short": "newjersey",
+		"href": "http://newjersey.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Jersey",
+		"long": "south jersey",
+		"short": "southjersey",
+		"href": "http://southjersey.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Mexico",
+		"long": "albuquerque",
+		"short": "albuquerque",
+		"href": "http://albuquerque.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Mexico",
+		"long": "clovis / portales",
+		"short": "clovis",
+		"href": "http://clovis.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Mexico",
+		"long": "farmington",
+		"short": "farmington",
+		"href": "http://farmington.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Mexico",
+		"long": "las cruces",
+		"short": "lascruces",
+		"href": "http://lascruces.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Mexico",
+		"long": "roswell / carlsbad",
+		"short": "roswell",
+		"href": "http://roswell.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New Mexico",
+		"long": "santa fe / taos",
+		"short": "santafe",
+		"href": "http://santafe.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "albany",
+		"short": "albany",
+		"href": "http://albany.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "binghamton",
+		"short": "binghamton",
+		"href": "http://binghamton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "buffalo",
+		"short": "buffalo",
+		"href": "http://buffalo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "catskills",
+		"short": "catskills",
+		"href": "http://catskills.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "chautauqua",
+		"short": "chautauqua",
+		"href": "http://chautauqua.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "elmira-corning",
+		"short": "elmira",
+		"href": "http://elmira.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "finger lakes",
+		"short": "fingerlakes",
+		"href": "http://fingerlakes.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "glens falls",
+		"short": "glensfalls",
+		"href": "http://glensfalls.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "hudson valley",
+		"short": "hudsonvalley",
+		"href": "http://hudsonvalley.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "ithaca",
+		"short": "ithaca",
+		"href": "http://ithaca.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "long island",
+		"short": "longisland",
+		"href": "http://longisland.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "new york city",
+		"short": "newyork",
+		"href": "http://newyork.craigslist.org/",
+		"hoods": [
+			{
+				"long": "manhattan",
+				"short": "mnh"
+			},
+			{
+				"long": "brooklyn",
+				"short": "brk"
+			},
+			{
+				"long": "queens",
+				"short": "que"
+			},
+			{
+				"long": "bronx",
+				"short": "brx"
+			},
+			{
+				"long": "staten island",
+				"short": "stn"
+			},
+			{
+				"long": "new jersey",
+				"short": "jsy"
+			},
+			{
+				"long": "long island",
+				"short": "lgi"
+			},
+			{
+				"long": "westchester",
+				"short": "wch"
+			},
+			{
+				"long": "fairfield",
+				"short": "fct"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "oneonta",
+		"short": "oneonta",
+		"href": "http://oneonta.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "plattsburgh-adirondacks",
+		"short": "plattsburgh",
+		"href": "http://plattsburgh.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "potsdam-canton-massena",
+		"short": "potsdam",
+		"href": "http://potsdam.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "rochester",
+		"short": "rochester",
+		"href": "http://rochester.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "syracuse",
+		"short": "syracuse",
+		"href": "http://syracuse.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "twin tiers NY/PA",
+		"short": "twintiers",
+		"href": "http://twintiers.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "utica-rome-oneida",
+		"short": "utica",
+		"href": "http://utica.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "New York",
+		"long": "watertown",
+		"short": "watertown",
+		"href": "http://watertown.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "asheville",
+		"short": "asheville",
+		"href": "http://asheville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "boone",
+		"short": "boone",
+		"href": "http://boone.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "charlotte",
+		"short": "charlotte",
+		"href": "http://charlotte.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "eastern NC",
+		"short": "eastnc",
+		"href": "http://eastnc.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "fayetteville",
+		"short": "fayetteville",
+		"href": "http://fayetteville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "greensboro",
+		"short": "greensboro",
+		"href": "http://greensboro.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "hickory / lenoir",
+		"short": "hickory",
+		"href": "http://hickory.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "jacksonville ",
+		"short": "onslow",
+		"href": "http://onslow.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "outer banks",
+		"short": "outerbanks",
+		"href": "http://outerbanks.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "raleigh / durham / CH",
+		"short": "raleigh",
+		"href": "http://raleigh.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "wilmington",
+		"short": "wilmington",
+		"href": "http://wilmington.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Carolina",
+		"long": "winston-salem",
+		"short": "winstonsalem",
+		"href": "http://winstonsalem.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Dakota",
+		"long": "bismarck",
+		"short": "bismarck",
+		"href": "http://bismarck.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Dakota",
+		"long": "fargo / moorhead",
+		"short": "fargo",
+		"href": "http://fargo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Dakota",
+		"long": "grand forks",
+		"short": "grandforks",
+		"href": "http://grandforks.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "North Dakota",
+		"long": "north dakota",
+		"short": "nd",
+		"href": "http://nd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "akron / canton",
+		"short": "akroncanton",
+		"href": "http://akroncanton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "ashtabula",
+		"short": "ashtabula",
+		"href": "http://ashtabula.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "athens ",
+		"short": "athensohio",
+		"href": "http://athensohio.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "chillicothe",
+		"short": "chillicothe",
+		"href": "http://chillicothe.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "cincinnati",
+		"short": "cincinnati",
+		"href": "http://cincinnati.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "cleveland",
+		"short": "cleveland",
+		"href": "http://cleveland.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "columbus",
+		"short": "columbus",
+		"href": "http://columbus.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "dayton / springfield",
+		"short": "dayton",
+		"href": "http://dayton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "lima / findlay",
+		"short": "limaohio",
+		"href": "http://limaohio.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "mansfield",
+		"short": "mansfield",
+		"href": "http://mansfield.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "sandusky",
+		"short": "sandusky",
+		"href": "http://sandusky.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "toledo",
+		"short": "toledo",
+		"href": "http://toledo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "tuscarawas co",
+		"short": "tuscarawas",
+		"href": "http://tuscarawas.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "youngstown",
+		"short": "youngstown",
+		"href": "http://youngstown.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Ohio",
+		"long": "zanesville / cambridge",
+		"short": "zanesville",
+		"href": "http://zanesville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oklahoma",
+		"long": "lawton",
+		"short": "lawton",
+		"href": "http://lawton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oklahoma",
+		"long": "northwest OK",
+		"short": "enid",
+		"href": "http://enid.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oklahoma",
+		"long": "oklahoma city",
+		"short": "oklahomacity",
+		"href": "http://oklahomacity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oklahoma",
+		"long": "stillwater",
+		"short": "stillwater",
+		"href": "http://stillwater.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oklahoma",
+		"long": "tulsa",
+		"short": "tulsa",
+		"href": "http://tulsa.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "bend",
+		"short": "bend",
+		"href": "http://bend.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "corvallis/albany",
+		"short": "corvallis",
+		"href": "http://corvallis.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "east oregon",
+		"short": "eastoregon",
+		"href": "http://eastoregon.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "eugene",
+		"short": "eugene",
+		"href": "http://eugene.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "klamath falls",
+		"short": "klamath",
+		"href": "http://klamath.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "medford-ashland",
+		"short": "medford",
+		"href": "http://medford.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "oregon coast",
+		"short": "oregoncoast",
+		"href": "http://oregoncoast.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "portland",
+		"short": "portland",
+		"href": "http://portland.craigslist.org/",
+		"hoods": [
+			{
+				"long": "multnomah co",
+				"short": "mlt"
+			},
+			{
+				"long": "washington co",
+				"short": "wsc"
+			},
+			{
+				"long": "clark/cowlitz",
+				"short": "clk"
+			},
+			{
+				"long": "clackamas co",
+				"short": "clc"
+			},
+			{
+				"long": "north coast",
+				"short": "nco"
+			},
+			{
+				"long": "yamhill co",
+				"short": "yam"
+			},
+			{
+				"long": "columbia gorge",
+				"short": "grg"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "roseburg",
+		"short": "roseburg",
+		"href": "http://roseburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Oregon",
+		"long": "salem",
+		"short": "salem",
+		"href": "http://salem.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "altoona-johnstown",
+		"short": "altoona",
+		"href": "http://altoona.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "cumberland valley",
+		"short": "chambersburg",
+		"href": "http://chambersburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "erie",
+		"short": "erie",
+		"href": "http://erie.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "harrisburg",
+		"short": "harrisburg",
+		"href": "http://harrisburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "lancaster",
+		"short": "lancaster",
+		"href": "http://lancaster.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "lehigh valley",
+		"short": "allentown",
+		"href": "http://allentown.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "meadville",
+		"short": "meadville",
+		"href": "http://meadville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "philadelphia",
+		"short": "philadelphia",
+		"href": "http://philadelphia.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "pittsburgh",
+		"short": "pittsburgh",
+		"href": "http://pittsburgh.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "poconos",
+		"short": "poconos",
+		"href": "http://poconos.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "reading",
+		"short": "reading",
+		"href": "http://reading.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "scranton / wilkes-barre",
+		"short": "scranton",
+		"href": "http://scranton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "state college",
+		"short": "pennstate",
+		"href": "http://pennstate.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "williamsport",
+		"short": "williamsport",
+		"href": "http://williamsport.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"long": "york",
+		"short": "york",
+		"href": "http://york.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Rhode Island",
+		"long": "rhode island",
+		"short": "providence",
+		"href": "http://providence.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Carolina",
+		"long": "charleston",
+		"short": "charleston",
+		"href": "http://charleston.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Carolina",
+		"long": "columbia",
+		"short": "columbia",
+		"href": "http://columbia.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Carolina",
+		"long": "florence",
+		"short": "florencesc",
+		"href": "http://florencesc.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Carolina",
+		"long": "greenville / upstate",
+		"short": "greenville",
+		"href": "http://greenville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Carolina",
+		"long": "hilton head",
+		"short": "hiltonhead",
+		"href": "http://hiltonhead.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Carolina",
+		"long": "myrtle beach",
+		"short": "myrtlebeach",
+		"href": "http://myrtlebeach.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Dakota",
+		"long": "northeast SD",
+		"short": "nesd",
+		"href": "http://nesd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Dakota",
+		"long": "pierre / central SD",
+		"short": "csd",
+		"href": "http://csd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Dakota",
+		"long": "rapid city / west SD",
+		"short": "rapidcity",
+		"href": "http://rapidcity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Dakota",
+		"long": "sioux falls / SE SD",
+		"short": "siouxfalls",
+		"href": "http://siouxfalls.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "South Dakota",
+		"long": "south dakota",
+		"short": "sd",
+		"href": "http://sd.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "chattanooga",
+		"short": "chattanooga",
+		"href": "http://chattanooga.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "clarksville",
+		"short": "clarksville",
+		"href": "http://clarksville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "cookeville",
+		"short": "cookeville",
+		"href": "http://cookeville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "jackson  ",
+		"short": "jacksontn",
+		"href": "http://jacksontn.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "knoxville",
+		"short": "knoxville",
+		"href": "http://knoxville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "memphis",
+		"short": "memphis",
+		"href": "http://memphis.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "nashville",
+		"short": "nashville",
+		"href": "http://nashville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Tennessee",
+		"long": "tri-cities",
+		"short": "tricities",
+		"href": "http://tricities.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "abilene",
+		"short": "abilene",
+		"href": "http://abilene.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "amarillo",
+		"short": "amarillo",
+		"href": "http://amarillo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "austin",
+		"short": "austin",
+		"href": "http://austin.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "beaumont / port arthur",
+		"short": "beaumont",
+		"href": "http://beaumont.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "brownsville",
+		"short": "brownsville",
+		"href": "http://brownsville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "college station",
+		"short": "collegestation",
+		"href": "http://collegestation.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "corpus christi",
+		"short": "corpuschristi",
+		"href": "http://corpuschristi.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "dallas / fort worth",
+		"short": "dallas",
+		"href": "http://dallas.craigslist.org/",
+		"hoods": [
+			{
+				"long": "dallas",
+				"short": "dal"
+			},
+			{
+				"long": "fort worth",
+				"short": "ftw"
+			},
+			{
+				"long": "mid cities",
+				"short": "mdf"
+			},
+			{
+				"long": "north DFW",
+				"short": "ndf"
+			},
+			{
+				"long": "south DFW",
+				"short": "sdf"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "deep east texas",
+		"short": "nacogdoches",
+		"href": "http://nacogdoches.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "del rio / eagle pass",
+		"short": "delrio",
+		"href": "http://delrio.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "el paso",
+		"short": "elpaso",
+		"href": "http://elpaso.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "galveston",
+		"short": "galveston",
+		"href": "http://galveston.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "houston",
+		"short": "houston",
+		"href": "http://houston.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "killeen / temple / ft hood",
+		"short": "killeen",
+		"href": "http://killeen.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "laredo",
+		"short": "laredo",
+		"href": "http://laredo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "lubbock",
+		"short": "lubbock",
+		"href": "http://lubbock.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "mcallen / edinburg",
+		"short": "mcallen",
+		"href": "http://mcallen.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "odessa / midland",
+		"short": "odessa",
+		"href": "http://odessa.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "san angelo",
+		"short": "sanangelo",
+		"href": "http://sanangelo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "san antonio",
+		"short": "sanantonio",
+		"href": "http://sanantonio.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "san marcos",
+		"short": "sanmarcos",
+		"href": "http://sanmarcos.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "southwest TX",
+		"short": "bigbend",
+		"href": "http://bigbend.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "texoma",
+		"short": "texoma",
+		"href": "http://texoma.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "tyler / east TX",
+		"short": "easttexas",
+		"href": "http://easttexas.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "victoria ",
+		"short": "victoriatx",
+		"href": "http://victoriatx.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "waco",
+		"short": "waco",
+		"href": "http://waco.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Texas",
+		"long": "wichita falls",
+		"short": "wichitafalls",
+		"href": "http://wichitafalls.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Utah",
+		"long": "logan",
+		"short": "logan",
+		"href": "http://logan.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Utah",
+		"long": "ogden-clearfield",
+		"short": "ogden",
+		"href": "http://ogden.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Utah",
+		"long": "provo / orem",
+		"short": "provo",
+		"href": "http://provo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Utah",
+		"long": "salt lake city",
+		"short": "saltlakecity",
+		"href": "http://saltlakecity.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Utah",
+		"long": "st george",
+		"short": "stgeorge",
+		"href": "http://stgeorge.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Vermont",
+		"long": "vermont",
+		"short": "vermont",
+		"href": "http://vermont.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "charlottesville",
+		"short": "charlottesville",
+		"href": "http://charlottesville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "danville",
+		"short": "danville",
+		"href": "http://danville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "fredericksburg",
+		"short": "fredericksburg",
+		"href": "http://fredericksburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "hampton roads",
+		"short": "norfolk",
+		"href": "http://norfolk.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "harrisonburg",
+		"short": "harrisonburg",
+		"href": "http://harrisonburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "lynchburg",
+		"short": "lynchburg",
+		"href": "http://lynchburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "new river valley",
+		"short": "blacksburg",
+		"href": "http://blacksburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "richmond",
+		"short": "richmond",
+		"href": "http://richmond.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "roanoke",
+		"short": "roanoke",
+		"href": "http://roanoke.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "southwest VA",
+		"short": "swva",
+		"href": "http://swva.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Virginia",
+		"long": "winchester",
+		"short": "winchester",
+		"href": "http://winchester.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "bellingham",
+		"short": "bellingham",
+		"href": "http://bellingham.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "kennewick-pasco-richland",
+		"short": "kpr",
+		"href": "http://kpr.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "moses lake",
+		"short": "moseslake",
+		"href": "http://moseslake.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "olympic peninsula",
+		"short": "olympic",
+		"href": "http://olympic.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "pullman / moscow",
+		"short": "pullman",
+		"href": "http://pullman.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "seattle-tacoma",
+		"short": "seattle",
+		"href": "http://seattle.craigslist.org/",
+		"hoods": [
+			{
+				"long": "seattle",
+				"short": "see"
+			},
+			{
+				"long": "eastside",
+				"short": "est"
+			},
+			{
+				"long": "snohomish co",
+				"short": "sno"
+			},
+			{
+				"long": "kitsap co",
+				"short": "kit"
+			},
+			{
+				"long": "tacoma",
+				"short": "tac"
+			},
+			{
+				"long": "olympia",
+				"short": "oly"
+			},
+			{
+				"long": "south king",
+				"short": "skc"
+			}
+		]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "skagit / island / SJI",
+		"short": "skagit",
+		"href": "http://skagit.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "spokane / coeur d'alene",
+		"short": "spokane",
+		"href": "http://spokane.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "wenatchee",
+		"short": "wenatchee",
+		"href": "http://wenatchee.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Washington",
+		"long": "yakima",
+		"short": "yakima",
+		"href": "http://yakima.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "charleston ",
+		"short": "charlestonwv",
+		"href": "http://charlestonwv.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "eastern panhandle",
+		"short": "martinsburg",
+		"href": "http://martinsburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "huntington-ashland",
+		"short": "huntington",
+		"href": "http://huntington.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "morgantown",
+		"short": "morgantown",
+		"href": "http://morgantown.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "northern panhandle",
+		"short": "wheeling",
+		"href": "http://wheeling.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "parkersburg-marietta",
+		"short": "parkersburg",
+		"href": "http://parkersburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "southern WV",
+		"short": "swv",
+		"href": "http://swv.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "West Virginia",
+		"long": "west virginia (old)",
+		"short": "wv",
+		"href": "http://wv.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "appleton-oshkosh-FDL",
+		"short": "appleton",
+		"href": "http://appleton.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "eau claire",
+		"short": "eauclaire",
+		"href": "http://eauclaire.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "green bay",
+		"short": "greenbay",
+		"href": "http://greenbay.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "janesville",
+		"short": "janesville",
+		"href": "http://janesville.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "kenosha-racine",
+		"short": "racine",
+		"href": "http://racine.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "la crosse",
+		"short": "lacrosse",
+		"href": "http://lacrosse.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "madison",
+		"short": "madison",
+		"href": "http://madison.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "milwaukee",
+		"short": "milwaukee",
+		"href": "http://milwaukee.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "northern WI",
+		"short": "northernwi",
+		"href": "http://northernwi.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "sheboygan",
+		"short": "sheboygan",
+		"href": "http://sheboygan.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wisconsin",
+		"long": "wausau",
+		"short": "wausau",
+		"href": "http://wausau.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Wyoming",
+		"long": "wyoming",
+		"short": "wyoming",
+		"href": "http://wyoming.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Territories",
+		"long": "guam-micronesia",
+		"short": "micronesia",
+		"href": "http://micronesia.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Territories",
+		"long": "puerto rico",
+		"short": "puertorico",
+		"href": "http://puertorico.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "US",
+		"subregion": "Territories",
+		"long": "U.S. virgin islands",
+		"short": "virgin",
+		"href": "http://virgin.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "calgary",
+		"short": "calgary",
+		"href": "http://calgary.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "edmonton",
+		"short": "edmonton",
+		"href": "http://edmonton.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "ft mcmurray",
+		"short": "ftmcmurray",
+		"href": "http://ftmcmurray.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "lethbridge",
+		"short": "lethbridge",
+		"href": "http://lethbridge.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "medicine hat",
+		"short": "hat",
+		"href": "http://hat.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "peace river country",
+		"short": "peace",
+		"href": "http://peace.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Alberta",
+		"long": "red deer",
+		"short": "reddeer",
+		"href": "http://reddeer.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "cariboo",
+		"short": "cariboo",
+		"href": "http://cariboo.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "comox valley",
+		"short": "comoxvalley",
+		"href": "http://comoxvalley.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "fraser valley",
+		"short": "abbotsford",
+		"href": "http://abbotsford.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "kamloops",
+		"short": "kamloops",
+		"href": "http://kamloops.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "kelowna / okanagan",
+		"short": "kelowna",
+		"href": "http://kelowna.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "kootenays",
+		"short": "kootenays",
+		"href": "http://kootenays.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "nanaimo",
+		"short": "nanaimo",
+		"href": "http://nanaimo.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "prince george",
+		"short": "princegeorge",
+		"href": "http://princegeorge.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "skeena-bulkley",
+		"short": "skeena",
+		"href": "http://skeena.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "sunshine coast",
+		"short": "sunshine",
+		"href": "http://sunshine.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "vancouver",
+		"short": "vancouver",
+		"href": "http://vancouver.craigslist.ca/",
+		"hoods": [
+			{
+				"long": "vancouver",
+				"short": "van"
+			},
+			{
+				"long": "north shore",
+				"short": "nvn"
+			},
+			{
+				"long": "burnaby/newwest",
+				"short": "bnc"
+			},
+			{
+				"long": "delta/surrey/langley",
+				"short": "rds"
+			},
+			{
+				"long": "tricities/pitt/maple",
+				"short": "pml"
+			},
+			{
+				"long": "richmond",
+				"short": "rch"
+			}
+		]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "victoria",
+		"short": "victoria",
+		"href": "http://victoria.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "British Columbia",
+		"long": "whistler",
+		"short": "whistler",
+		"href": "http://whistler.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Manitoba",
+		"long": "winnipeg",
+		"short": "winnipeg",
+		"href": "http://winnipeg.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "New Brunswick",
+		"long": "new brunswick",
+		"short": "newbrunswick",
+		"href": "http://newbrunswick.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Newfoundland and Labrador",
+		"long": "st john's",
+		"short": "newfoundland",
+		"href": "http://newfoundland.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Northwest Territories",
+		"long": "territories",
+		"short": "territories",
+		"href": "http://territories.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Northwest Territories",
+		"long": "yellowknife",
+		"short": "yellowknife",
+		"href": "http://yellowknife.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Nova Scotia",
+		"long": "halifax",
+		"short": "halifax",
+		"href": "http://halifax.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "barrie",
+		"short": "barrie",
+		"href": "http://barrie.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "belleville",
+		"short": "belleville",
+		"href": "http://belleville.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "brantford-woodstock",
+		"short": "brantford",
+		"href": "http://brantford.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "chatham-kent",
+		"short": "chatham",
+		"href": "http://chatham.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "cornwall",
+		"short": "cornwall",
+		"href": "http://cornwall.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "guelph",
+		"short": "guelph",
+		"href": "http://guelph.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "hamilton-burlington",
+		"short": "hamilton",
+		"href": "http://hamilton.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "kingston",
+		"short": "kingston",
+		"href": "http://kingston.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "kitchener-waterloo-cambridge",
+		"short": "kitchener",
+		"href": "http://kitchener.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "london ",
+		"short": "londonon",
+		"href": "http://londonon.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "niagara region",
+		"short": "niagara",
+		"href": "http://niagara.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "ottawa-hull-gatineau",
+		"short": "ottawa",
+		"href": "http://ottawa.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "owen sound",
+		"short": "owensound",
+		"href": "http://owensound.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "peterborough",
+		"short": "peterborough",
+		"href": "http://peterborough.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "sarnia",
+		"short": "sarnia",
+		"href": "http://sarnia.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "sault ste marie",
+		"short": "soo",
+		"href": "http://soo.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "sudbury",
+		"short": "sudbury",
+		"href": "http://sudbury.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "thunder bay",
+		"short": "thunderbay",
+		"href": "http://thunderbay.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "toronto",
+		"short": "toronto",
+		"href": "http://toronto.craigslist.ca/",
+		"hoods": [
+			{
+				"long": "city of toronto",
+				"short": "tor"
+			},
+			{
+				"long": "durham region",
+				"short": "drh"
+			},
+			{
+				"long": "york region",
+				"short": "yrk"
+			},
+			{
+				"long": "brampton",
+				"short": "bra"
+			},
+			{
+				"long": "mississauga",
+				"short": "mss"
+			},
+			{
+				"long": "oakville",
+				"short": "oak"
+			}
+		]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Ontario",
+		"long": "windsor",
+		"short": "windsor",
+		"href": "http://windsor.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Prince Edward Island",
+		"long": "prince edward island",
+		"short": "pei",
+		"href": "http://pei.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Quebec",
+		"long": "montreal",
+		"short": "montreal",
+		"href": "http://montreal.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Quebec",
+		"long": "quebec city",
+		"short": "quebec",
+		"href": "http://quebec.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Quebec",
+		"long": "saguenay",
+		"short": "saguenay",
+		"href": "http://saguenay.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Quebec",
+		"long": "sherbrooke",
+		"short": "sherbrooke",
+		"href": "http://sherbrooke.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Quebec",
+		"long": "trois-rivieres",
+		"short": "troisrivieres",
+		"href": "http://troisrivieres.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Saskatchewan",
+		"long": "regina",
+		"short": "regina",
+		"href": "http://regina.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Saskatchewan",
+		"long": "saskatoon",
+		"short": "saskatoon",
+		"href": "http://saskatoon.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Canada",
+		"subregion": "Yukon Territory",
+		"long": "whitehorse",
+		"short": "whitehorse",
+		"href": "http://whitehorse.craigslist.ca/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Austria",
+		"long": "vienna",
+		"short": "vienna",
+		"href": "http://vienna.craigslist.at/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Belgium",
+		"long": "belgium",
+		"short": "brussels",
+		"href": "http://brussels.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Bulgaria",
+		"long": "bulgaria",
+		"short": "bulgaria",
+		"href": "http://bulgaria.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Croatia",
+		"long": "croatia",
+		"short": "zagreb",
+		"href": "http://zagreb.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Denmark",
+		"long": "copenhagen",
+		"short": "copenhagen",
+		"href": "http://copenhagen.craigslist.dk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "bordeaux",
+		"short": "bordeaux",
+		"href": "http://bordeaux.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "brittany",
+		"short": "rennes",
+		"href": "http://rennes.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "grenoble",
+		"short": "grenoble",
+		"href": "http://grenoble.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "lille",
+		"short": "lille",
+		"href": "http://lille.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "loire valley",
+		"short": "loire",
+		"href": "http://loire.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "lyon",
+		"short": "lyon",
+		"href": "http://lyon.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "marseille",
+		"short": "marseilles",
+		"href": "http://marseilles.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "montpellier",
+		"short": "montpellier",
+		"href": "http://montpellier.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "nice / cote d'azur",
+		"short": "cotedazur",
+		"href": "http://cotedazur.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "normandy",
+		"short": "rouen",
+		"href": "http://rouen.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "paris",
+		"short": "paris",
+		"href": "http://paris.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "strasbourg",
+		"short": "strasbourg",
+		"href": "http://strasbourg.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "France",
+		"long": "toulouse",
+		"short": "toulouse",
+		"href": "http://toulouse.craigslist.fr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "berlin",
+		"short": "berlin",
+		"href": "http://berlin.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "bremen",
+		"short": "bremen",
+		"href": "http://bremen.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "cologne",
+		"short": "cologne",
+		"href": "http://cologne.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "dresden",
+		"short": "dresden",
+		"href": "http://dresden.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "dusseldorf",
+		"short": "dusseldorf",
+		"href": "http://dusseldorf.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "essen / ruhr",
+		"short": "essen",
+		"href": "http://essen.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "frankfurt",
+		"short": "frankfurt",
+		"href": "http://frankfurt.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "hamburg",
+		"short": "hamburg",
+		"href": "http://hamburg.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "hannover",
+		"short": "hannover",
+		"href": "http://hannover.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "heidelberg",
+		"short": "heidelberg",
+		"href": "http://heidelberg.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "kaiserslautern",
+		"short": "kaiserslautern",
+		"href": "http://kaiserslautern.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "leipzig",
+		"short": "leipzig",
+		"href": "http://leipzig.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "munich",
+		"short": "munich",
+		"href": "http://munich.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "nuremberg",
+		"short": "nuremberg",
+		"href": "http://nuremberg.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Germany",
+		"long": "stuttgart",
+		"short": "stuttgart",
+		"href": "http://stuttgart.craigslist.de/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Hungary",
+		"long": "budapest",
+		"short": "budapest",
+		"href": "http://budapest.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Iceland",
+		"long": "reykjavik",
+		"short": "reykjavik",
+		"href": "http://reykjavik.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Ireland",
+		"long": "dublin",
+		"short": "dublin",
+		"href": "http://dublin.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "bologna",
+		"short": "bologna",
+		"href": "http://bologna.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "florence / tuscany",
+		"short": "florence",
+		"href": "http://florence.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "genoa",
+		"short": "genoa",
+		"href": "http://genoa.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "milan",
+		"short": "milan",
+		"href": "http://milan.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "napoli / campania",
+		"short": "naples",
+		"href": "http://naples.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "perugia",
+		"short": "perugia",
+		"href": "http://perugia.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "rome",
+		"short": "rome",
+		"href": "http://rome.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "sardinia",
+		"short": "sardinia",
+		"href": "http://sardinia.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "sicilia",
+		"short": "sicily",
+		"href": "http://sicily.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "torino",
+		"short": "torino",
+		"href": "http://torino.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Italy",
+		"long": "venice / veneto",
+		"short": "venice",
+		"href": "http://venice.craigslist.it/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Luxembourg",
+		"long": "luxembourg",
+		"short": "luxembourg",
+		"href": "http://luxembourg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Netherlands",
+		"long": "amsterdam / randstad",
+		"short": "amsterdam",
+		"href": "http://amsterdam.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Norway",
+		"long": "norway",
+		"short": "oslo",
+		"href": "http://oslo.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Romania",
+		"long": "romania",
+		"short": "bucharest",
+		"href": "http://bucharest.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Russian Federation",
+		"long": "moscow",
+		"short": "moscow",
+		"href": "http://moscow.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Russian Federation",
+		"long": "st petersburg",
+		"short": "stpetersburg",
+		"href": "http://stpetersburg.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "alicante",
+		"short": "alicante",
+		"href": "http://alicante.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "baleares",
+		"short": "baleares",
+		"href": "http://baleares.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "barcelona",
+		"short": "barcelona",
+		"href": "http://barcelona.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "bilbao",
+		"short": "bilbao",
+		"href": "http://bilbao.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "cadiz",
+		"short": "cadiz",
+		"href": "http://cadiz.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "canarias",
+		"short": "canarias",
+		"href": "http://canarias.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "granada",
+		"short": "granada",
+		"href": "http://granada.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "madrid",
+		"short": "madrid",
+		"href": "http://madrid.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "malaga",
+		"short": "malaga",
+		"href": "http://malaga.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "sevilla",
+		"short": "sevilla",
+		"href": "http://sevilla.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Spain",
+		"long": "valencia",
+		"short": "valencia",
+		"href": "http://valencia.craigslist.es/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Sweden",
+		"long": "sweden",
+		"short": "stockholm",
+		"href": "http://stockholm.craigslist.se/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Switzerland",
+		"long": "basel",
+		"short": "basel",
+		"href": "http://basel.craigslist.ch/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Switzerland",
+		"long": "bern",
+		"short": "bern",
+		"href": "http://bern.craigslist.ch/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Switzerland",
+		"long": "geneva",
+		"short": "geneva",
+		"href": "http://geneva.craigslist.ch/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Switzerland",
+		"long": "lausanne",
+		"short": "lausanne",
+		"href": "http://lausanne.craigslist.ch/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Switzerland",
+		"long": "zurich",
+		"short": "zurich",
+		"href": "http://zurich.craigslist.ch/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Turkey",
+		"long": "turkey",
+		"short": "istanbul",
+		"href": "http://istanbul.craigslist.com.tr/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "Ukraine",
+		"long": "ukraine",
+		"short": "ukraine",
+		"href": "http://ukraine.craigslist.org/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "aberdeen",
+		"short": "aberdeen",
+		"href": "http://aberdeen.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "bath",
+		"short": "bath",
+		"href": "http://bath.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "belfast",
+		"short": "belfast",
+		"href": "http://belfast.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "birmingham / west mids",
+		"short": "birmingham",
+		"href": "http://birmingham.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "brighton",
+		"short": "brighton",
+		"href": "http://brighton.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "bristol",
+		"short": "bristol",
+		"href": "http://bristol.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "cambridge, UK",
+		"short": "cambridge",
+		"href": "http://cambridge.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "cardiff / wales",
+		"short": "cardiff",
+		"href": "http://cardiff.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "coventry",
+		"short": "coventry",
+		"href": "http://coventry.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "derby",
+		"short": "derby",
+		"href": "http://derby.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "devon & cornwall",
+		"short": "devon",
+		"href": "http://devon.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "dundee",
+		"short": "dundee",
+		"href": "http://dundee.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "east anglia",
+		"short": "norwich",
+		"href": "http://norwich.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "east midlands",
+		"short": "eastmids",
+		"href": "http://eastmids.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "edinburgh",
+		"short": "edinburgh",
+		"href": "http://edinburgh.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "essex",
+		"short": "essex",
+		"href": "http://essex.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "glasgow",
+		"short": "glasgow",
+		"href": "http://glasgow.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "hampshire",
+		"short": "hampshire",
+		"href": "http://hampshire.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "kent",
+		"short": "kent",
+		"href": "http://kent.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "leeds",
+		"short": "leeds",
+		"href": "http://leeds.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "liverpool",
+		"short": "liverpool",
+		"href": "http://liverpool.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "london",
+		"short": "london",
+		"href": "http://london.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "manchester",
+		"short": "manchester",
+		"href": "http://manchester.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "newcastle / NE england",
+		"short": "newcastle",
+		"href": "http://newcastle.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "nottingham",
+		"short": "nottingham",
+		"href": "http://nottingham.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "oxford",
+		"short": "oxford",
+		"href": "http://oxford.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	},
+	{
+		"region": "Europe",
+		"subregion": "United Kingdom",
+		"long": "sheffield",
+		"short": "sheffield",
+		"href": "http://sheffield.craigslist.co.uk/",
+		"hoods": [ { "short" : "default" } ]
+	}
+]
