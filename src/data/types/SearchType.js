@@ -13,7 +13,10 @@ import {
   GraphQLString as StringType,
   GraphQLInt as IntType,
   GraphQLNonNull as NonNull,
+  GraphQLList as List,
 } from 'graphql';
+
+import PostType from './PostType';
 
 var CriteriaType = new ObjectType({
   name: 'Criteria',
@@ -30,8 +33,8 @@ const SearchType = new ObjectType({
   name: 'Search',
   fields: {
     id:       { type: new NonNull(ID) },
-    email:    { type: StringType },
-    criteria: { type: CriteriaType }
+    criteria: { type: CriteriaType },
+    posts:    { type: new List(PostType) }
   },
 });
 

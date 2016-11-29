@@ -2,22 +2,19 @@ const cheerio = require('cheerio'),
       Crawler = require('simplecrawler'),
       proxy   = require('./proxy.json');
 
-const specials = ['newyork', 'boston'];
+const specials = ['newyork', 'boston']; // these have special URLs (not 'apa')
 
 //
 // Craigslist spider
 // -----------------------------------------------------------------------------
-
 function crawlCraiglist(site, types) {
 
-  // convert to arrays
-  var results = {},
+  var results = {}, // convert to arrays
       hoods   = Object.keys(site.hoods).map(h => site.hoods[h].short);
       types   = Object.keys(types).map(t => types[t].short);
 
-  // prepare results object
   types.map(type => {
-    results[type] = {};
+    results[type] = {}; // prepare results object
 
     hoods.map(hood => {
       results[type][hood] = new Promise(resolve => {
@@ -32,6 +29,7 @@ function crawlCraiglist(site, types) {
         if ( /default/.test(hood) ) {
           crawler  = new Crawler(site.url + 'search/' + type);
           matchUrl = new RegExp('\/search\/'+ type +'(\\?s=\d+)?', 'ig');
+
         } else {
           // change "apa" to "aap" for special cases
           let t    = (specials.indexOf(site.short) > -1 && type == 'apa') ? 'aap' : type;
@@ -51,7 +49,7 @@ function crawlCraiglist(site, types) {
         }
 
         crawler.userAgent       = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0";
-        crawler.maxDepth        = 3;
+        crawler.maxDepth        = 2;
         crawler.maxConcurrency  = 3;
         crawler.useProxy        = true;
         crawler.proxyHostname   = proxy.host;
@@ -66,16 +64,31 @@ function crawlCraiglist(site, types) {
 
           console.log('Fetched: '+queueItem.url);
 
-          let $ = cheerio.load(responseBuffer.toString('utf-8')),
+          let $    = cheerio.load(responseBuffer.toString('utf-8')),
               link = queueItem.url.replace(queueItem.path, '');
 
           let newPosts = $('.result-row').get().map(el => {
+
+            // just jQuery things
+            let xDate   = $(el).find('time').attr('datetime'),
+                xLink   = link + $(el).find('.result-info .result-title').attr('href'),
+                xTitle  = $(el).find('.result-info .result-title').text(),
+                xLocale = $(el).find('.result-info .result-hood').text()
+                          ? $(el).find('.result-info .result-hood').text().slice(2, -1)
+                          : '',
+                xPrice  = parseInt($(el).find('.result-info .result-price').text().slice(1)) || 0,
+                xPic    = $(el).has('.result-image.empty').length ? false : true;
+                // xThumb = $(el).find('.result-image').attr('data-ids')
+                //          ? 'https://images.craigslist.org/' + $(el).find('.result-image').attr('data-ids').split(',')[0].slice(2)
+                //          : false;
+
             return {
-              date:   $(el).find('time').attr('datetime'),
-              link:   link + $(el).find('.result-info .result-title').attr('href'),
-              title:  $(el).find('.result-info .result-title').text(),
-              price:  parseInt($(el).find('.result-info .result-price').text().slice(1)) || 0,
-              pic:    $(el).has('.result-image.empty').length ? false : true,
+              date:   xDate,
+              link:   xLink,
+              title:  xTitle,
+              locale: xLocale,
+              price:  xPrice,
+              pic:    xPic,
               site:   site.short,
               hood:   hood,
               type:   type

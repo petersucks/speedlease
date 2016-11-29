@@ -1,0 +1,14 @@
+{
+    "roo": {
+        "short": "roo",
+        "long": "Single Rooms"
+    },
+    "sub": {
+        "short": "sub",
+        "long": "Sublease & Temporary"
+    },
+    "apa": {
+        "short": "apa",
+        "long": "Apartments"
+    }
+}

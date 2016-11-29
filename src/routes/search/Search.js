@@ -13,15 +13,12 @@ import Layout from '../../components/Layout';
 import s from './Search.css';
 import Search from '../../components/Search'
 
-function RootSearch({ search }) {
-
+function RootSearch({ search, id }) {
   return (
     <Layout>
-      <div className={s.root}>
-        <div className={s.container}>
-          <h1>Search</h1>
-          <Search search={search} />
-        </div>
+      <div className="container">
+        <h1 className="title is-1">Search</h1>
+        <Search search={search} id={id} />
       </div>
     </Layout>
   );

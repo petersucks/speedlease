@@ -1,0 +1,11 @@
+{
+  "name": "speedlease-spiders",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "redis": "^2.6.2",
+    "simplecrawler": "^1.0.1"
+  }
+}

@@ -17,9 +17,11 @@ export default {
   path: '/register',
 
   action() {
+    if (typeof history !== 'undefined' && history.state !== null)
+      var {state:{state: criteria }} = history;
     return {
       title,
-      component: <Register title={title} />,
+      component: <Register criteria={criteria} />,
     };
   },
 

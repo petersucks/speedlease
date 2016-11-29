@@ -4,10 +4,10 @@ import { DropdownList, NumberPicker } from 'react-widgets';
 import numberLocalizer from 'react-widgets/lib/localizers/simple-number';
 
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
-import s from '../Search.css';
+import s from './Criteria.css';
 
-import roster from '../../../spiders/roster.json';
-import types from '../../../spiders/types.json';
+import roster from '../../../core/roster.json';
+import types from '../../../core/types.json';
 
 //
 // Hood value component - display nothing instead of 'default'
@@ -46,89 +46,93 @@ class Criteria extends Component {
   }
 
   render() {
-
     // for the sake of brevity
-    var site = roster[this.props.criteria.site],
+    let site = roster[this.props.criteria.site],
         type = types[this.props.criteria.type],
         hood = site['hoods'][this.props.criteria.hood],
         min  = this.props.criteria.min,
         max  = this.props.criteria.max;
     
-    var hoodsList = Object.keys(site['hoods'])
+    let hoodsList = Object.keys(site['hoods'])
                     .map(h => site['hoods'][h]);
 
+    let loading = 'button is-primary' + (this.props.loading ? ' is-loading' : '');
+
     return (
-      <div className={s.root}>
-        <div className={s.container} >
+      <div className={s.criteria}>
 
-          {/* site */}
-          <DropdownList
-            valueField='short' textField='long'
-            data={rosterList}
-            defaultValue={site} 
-            onChange={val => {
-              let hoods = roster[val.short]['hoods'],
-                  newHood = hoods[Object.keys(hoods)[0]], /* get default hood */
-                  newSite = roster[val.short];
-              this.props.setCriteria({
-                site: newSite,
-                hood: newHood
-              });
-            }} />
+        <a className={loading} onClick={this.props.update}>
+          <span className="icon"><i className="fa fa-check"></i></span>
+          <span>{this.props.id ? 'Save Criteria' : 'Save This Search'}</span>
+        </a>
 
-          {/* hood */}
-          <DropdownList
-            disabled={hood.short == 'default'}
-            data={hoodsList}
-            value={hood}
-            textField={'long'}
-            valueComponent={HoodValue}
-            onChange={val => {
-              let newHood = val;
-              this.props.setCriteria({
-                hood: newHood
-              });
-            }}/>
+        {/* site */}
+        <DropdownList
+          valueField='short' textField='long'
+          data={rosterList}
+          defaultValue={site} 
+          onChange={val => {
+            let hoods = roster[val.short]['hoods'],
+                newHood = hoods[Object.keys(hoods)[0]].short, /* get default hood */
+                newSite = val.short;
+            this.props.setCriteria({
+              site: newSite,
+              hood: newHood
+            });
+          }} />
 
-          {/* type */}
-          <DropdownList
-            valueField='short' textField='long'
-            data={typesList}
-            defaultValue={type}
-            onChange={val => {
-              let newType = types[val.short];
-              this.props.setCriteria({
-                type: newType,
-              });
-            }} />
+        {/* hood */}
+        <DropdownList
+          disabled={hood.short == 'default'}
+          data={hoodsList}
+          value={hood}
+          textField={'long'}
+          valueComponent={HoodValue}
+          onChange={val => {
+            let newHood = val.short;
+            this.props.setCriteria({
+              hood: newHood
+            });
+          }}/>
 
-          {/* price:min */}
-          <NumberPicker
-            format='-$#,###'
-            defaultValue={min || 0}
-            min={0}
-            max={99999}
-            step={100} 
-            onChange={val => {
-              this.props.setCriteria({
-                min: val
-              });
-            }} />
+        {/* type */}
+        <DropdownList
+          valueField='short' textField='long'
+          data={typesList}
+          defaultValue={type}
+          onChange={val => {
+            let newType = val.short;
+            this.props.setCriteria({
+              type: newType,
+            });
+          }} />
 
-          {/* price:max */}
-          <NumberPicker
-            format='-$#,###'
-            defaultValue={max || 3000}
-            min={0}
-            max={99999}
-            step={100}
-            onChange={val => {
-              this.props.setCriteria({
-                max: val
-              });
-            }} />
+        {/* price:min */}
+        <NumberPicker
+          format='-$#,###'
+          defaultValue={min || 0}
+          min={0}
+          max={max}
+          step={100} 
+          onChange={val => {
+            this.props.setCriteria({
+              min: val
+            });
+          }} />
 
-        </div>
+        {/* price:max */}
+        <NumberPicker
+          format='-$#,###'
+          defaultValue={max || 3000}
+          min={min}
+          max={99999}
+          step={100}
+          onChange={val => {
+            this.props.setCriteria({
+              max: val
+            });
+          }} />
+
       </div>
     )
   }

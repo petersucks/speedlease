@@ -1,26 +1,23 @@
-const redis      = require('redis'),
-      client     = redis.createClient();
+const _      = require('lodash'),
+      redis  = require('redis'),
+      client = redis.createClient();
+
+client.on('error', (err) => console.error(err));
 
 const craigslist = require('./craigslist'),
       roster     = require('./roster.json'),
       types      = require('./types.json');
 
-////
-client.on('error', (err) => {
-  console.log(err);
-});
-////
-
+//
+// Was Spinnen machen
+// -----------------------------------------------------------------------------
 function crawl() {
+
   // client.flushall();
 
   console.time('Total runtime');
-
-  //
-  // the big show
-  //
   
-  Object.keys(roster).map(site => {
+  return Object.keys(roster).map(site => {
     return () => {
       return craigslist.crawl(roster[site], types)
       .then(pushToRedis);
@@ -30,7 +27,7 @@ function crawl() {
   .then(() => {
     console.timeEnd('Total runtime');
   })
-  .catch(e => console.log(e));
+  .catch(err => console.error(err));
 }
 
 function pushToRedis(query) {
@@ -41,12 +38,11 @@ function pushToRedis(query) {
     query.hoods.forEach(hood => {
 
       let key  = ['posts', query.site.short, type, hood].join(':'),
-          data = query['results'][type][hood];
+          data = _.uniqBy(query['results'][type][hood], o => o.title); // filter duplicates
 
       client.del(key);
       
-      // feed results to Redis
-      for (let i in data) {
+      for (let i in data) { // feed results to Redis
         client.rpush(key, JSON.stringify(data[i]));
       }
 
@@ -58,6 +54,6 @@ function pushToRedis(query) {
   });
 }
 
-crawl();
+crawl().then(() => client.quit());
 
 module.exports = crawl;

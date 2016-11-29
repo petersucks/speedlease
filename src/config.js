@@ -46,3 +46,11 @@ export const auth = {
   },
 
 };
+
+export const criteria = { // default criteria
+  site: 'sfbay',
+  type: 'roo',
+  hood: 'sfc',
+  min:  0,
+  max:  3000
+};

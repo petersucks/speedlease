@@ -1,0 +1,462 @@
+{
+	"phoenix": {
+		"region": "US",
+		"subregion": "Arizona",
+		"short": "phoenix",
+		"long": "Phoenix",
+		"url": "http://phoenix.craigslist.org/",
+		"hoods": {
+			"cph": {
+				"short": "cph",
+				"long": "Central / South Phoenix"
+			},
+			"evl": {
+				"short": "evl",
+				"long": "East Valley"
+			},
+			"nph": {
+				"short": "nph",
+				"long": "North Phoenix"
+			},
+			"wvl": {
+				"short": "wvl",
+				"long": "West Valley"
+			}
+		}
+	},
+	"losangeles": {
+		"region": "US",
+		"subregion": "California",
+		"short": "losangeles",
+		"long": "Los Angeles",
+		"url": "http://losangeles.craigslist.org/",
+		"hoods": {
+			"wst": {
+				"short": "wst",
+				"long": "Westside / Southbay"
+			},
+			"sfv": {
+				"short": "sfv",
+				"long": "SF Valley"
+			},
+			"lac": {
+				"short": "lac",
+				"long": "Central LA"
+			},
+			"sgv": {
+				"short": "sgv",
+				"long": "San Gabriel Valley"
+			},
+			"lgb": {
+				"short": "lgb",
+				"long": "Long Beach / 562"
+			},
+			"ant": {
+				"short": "ant",
+				"long": "Antelope Valley"
+			}
+		}
+	},
+	"sandiego": {
+		"region": "US",
+		"subregion": "California",
+		"short": "sandiego",
+		"long": "San Diego",
+		"url": "http://sandiego.craigslist.org/",
+		"hoods": {
+			"csd": {
+				"short": "csd",
+				"long": "City of San Diego"
+			},
+			"nsd": {
+				"short": "nsd",
+				"long": "North SD County"
+			},
+			"esd": {
+				"short": "esd",
+				"long": "East SD County"
+			},
+			"ssd": {
+				"short": "ssd",
+				"long": "South SD County"
+			}
+		}
+	},
+	"sfbay": {
+		"region": "US",
+		"subregion": "California",
+		"short": "sfbay",
+		"long": "San Francisco Bay Area",
+		"url": "http://sfbay.craigslist.org/",
+		"hoods": {
+			"sfc": {
+				"short": "sfc",
+				"long": "City of San Francisco"
+			},
+			"sby": {
+				"short": "sby",
+				"long": "South Bay"
+			},
+			"eby": {
+				"short": "eby",
+				"long": "East Bay"
+			},
+			"pen": {
+				"short": "pen",
+				"long": "Peninsula"
+			},
+			"nby": {
+				"short": "nby",
+				"long": "North Bay"
+			},
+			"scz": {
+				"short": "scz",
+				"long": "Santa Cruz"
+			}
+		}
+	},
+	"denver": {
+		"region": "US",
+		"subregion": "Colorado",
+		"short": "denver",
+		"long": "Denver",
+		"url": "http://denver.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"washingtondc": {
+		"region": "US",
+		"subregion": "District of Columbia",
+		"short": "washingtondc",
+		"long": "Washington, D.C.",
+		"url": "http://washingtondc.craigslist.org/",
+		"hoods": {
+			"doc": {
+				"short": "doc",
+				"long": "District of Columbia"
+			},
+			"nva": {
+				"short": "nva",
+				"long": "Northern Virginia"
+			},
+			"mld": {
+				"short": "mld",
+				"long": "Maryland"
+			}
+		}
+	},
+	"jacksonville": {
+		"region": "US",
+		"subregion": "Florida",
+		"short": "jacksonville",
+		"long": "Jacksonville",
+		"url": "http://jacksonville.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"orlando": {
+		"region": "US",
+		"subregion": "Florida",
+		"short": "orlando",
+		"long": "Orlando",
+		"url": "http://orlando.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"tampa": {
+		"region": "US",
+		"subregion": "Florida",
+		"short": "tampa",
+		"long": "Tampa Bay Area",
+		"url": "http://tampa.craigslist.org/",
+		"hoods": {
+			"hdo": {
+				"short": "hdo",
+				"long": "Hernando CO"
+			},
+			"hil": {
+				"short": "hil",
+				"long": "Hillsborough CO"
+			},
+			"psc": {
+				"short": "psc",
+				"long": "Pasco CO"
+			},
+			"pnl": {
+				"short": "pnl",
+				"long": "Pinellas CO"
+			}
+		}
+	},
+	"chicago": {
+		"region": "US",
+		"subregion": "Illinois",
+		"short": "chicago",
+		"long": "Chicago",
+		"url": "http://chicago.craigslist.org/",
+		"hoods": {
+			"chc": {
+				"short": "chc",
+				"long": "City of Chicago"
+			},
+			"nch": {
+				"short": "nch",
+				"long": "North Chicagoland"
+			},
+			"wcl": {
+				"short": "wcl",
+				"long": "West Chicagoland"
+			},
+			"sox": {
+				"short": "sox",
+				"long": "South Chicagoland"
+			},
+			"nwi": {
+				"short": "nwi",
+				"long": "Northwest Indiana"
+			},
+			"nwc": {
+				"short": "nwc",
+				"long": "Northwest Suburbs"
+			}
+		}
+	},
+	"indianapolis": {
+		"region": "US",
+		"subregion": "Indiana",
+		"short": "indianapolis",
+		"long": "Indianapolis",
+		"url": "http://indianapolis.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"boston": {
+		"region": "US",
+		"subregion": "Massachusetts",
+		"short": "boston",
+		"long": "Boston",
+		"url": "http://boston.craigslist.org/",
+		"hoods": {
+			"gbs": {
+				"short": "gbs",
+				"long": "Boston / Camb / Brook"
+			},
+			"nwb": {
+				"short": "nwb",
+				"long": "Northwest / Merrimack"
+			},
+			"bmw": {
+				"short": "bmw",
+				"long": "Metro West"
+			},
+			"nos": {
+				"short": "nos",
+				"long": "North Shore"
+			},
+			"sob": {
+				"short": "sob",
+				"long": "South Shore"
+			}
+		}
+	},
+	"lasvegas": {
+		"region": "US",
+		"subregion": "Nevada",
+		"short": "lasvegas",
+		"long": "Las Vegas",
+		"url": "http://lasvegas.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"newyork": {
+		"region": "US",
+		"subregion": "New York",
+		"short": "newyork",
+		"long": "New York City",
+		"url": "http://newyork.craigslist.org/",
+		"hoods": {
+			"mnh": {
+				"short": "mnh",
+				"long": "Manhattan"
+			},
+			"brk": {
+				"short": "brk",
+				"long": "Brooklyn"
+			},
+			"que": {
+				"short": "que",
+				"long": "Queens"
+			},
+			"brx": {
+				"short": "brx",
+				"long": "Bronx"
+			},
+			"stn": {
+				"short": "stn",
+				"long": "Staten Island"
+			},
+			"jsy": {
+				"short": "jsy",
+				"long": "New Jersey"
+			},
+			"lgi": {
+				"short": "lgi",
+				"long": "Long Island"
+			},
+			"wch": {
+				"short": "wch",
+				"long": "Westchester"
+			},
+			"fct": {
+				"short": "fct",
+				"long": "Fairfield"
+			}
+		}
+	},
+	"charlotte": {
+		"region": "US",
+		"subregion": "North Carolina",
+		"short": "charlotte",
+		"long": "Charlotte",
+		"url": "http://charlotte.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"columbus": {
+		"region": "US",
+		"subregion": "Ohio",
+		"short": "columbus",
+		"long": "Columbus",
+		"url": "http://columbus.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"portland": {
+		"region": "US",
+		"subregion": "Oregon",
+		"short": "portland",
+		"long": "Portland",
+		"url": "http://portland.craigslist.org/",
+		"hoods": {
+			"mlt": {
+				"short": "mlt",
+				"long": "Multnomah CO"
+			},
+			"wsc": {
+				"short": "wsc",
+				"long": "Washington CO"
+			},
+			"clk": {
+				"short": "clk",
+				"long": "Clark / Cowlitz"
+			},
+			"clc": {
+				"short": "clc",
+				"long": "Clackamas CO"
+			},
+			"nco": {
+				"short": "nco",
+				"long": "North Coast"
+			},
+			"yam": {
+				"short": "yam",
+				"long": "Yamhill CO"
+			},
+			"grg": {
+				"short": "grg",
+				"long": "Columbia Gorge"
+			}
+		}
+	},
+	"philadelphia": {
+		"region": "US",
+		"subregion": "Pennsylvania",
+		"short": "philadelphia",
+		"long": "Philadelphia",
+		"url": "http://philadelphia.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"austin": {
+		"region": "US",
+		"subregion": "Texas",
+		"short": "austin",
+		"long": "Austin",
+		"url": "http://austin.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"dallas": {
+		"region": "US",
+		"subregion": "Texas",
+		"short": "dallas",
+		"long": "Dallas",
+		"url": "http://dallas.craigslist.org/",
+		"hoods": {
+			"dal": {
+				"short": "dal",
+				"long": "Dallas"
+			},
+			"ftw": {
+				"short": "ftw",
+				"long": "Fort Worth"
+			},
+			"mdf": {
+				"short": "mdf",
+				"long": "Mid Cities"
+			},
+			"ndf": {
+				"short": "ndf",
+				"long": "North DFW"
+			},
+			"sdf": {
+				"short": "sdf",
+				"long": "South DFW"
+			}
+		}
+	},
+	"houston": {
+		"region": "US",
+		"subregion": "Texas",
+		"short": "houston",
+		"long": "Houston",
+		"url": "http://houston.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"sanantonio": {
+		"region": "US",
+		"subregion": "Texas",
+		"short": "sanantonio",
+		"long": "San Antonio",
+		"url": "http://sanantonio.craigslist.org/",
+		"hoods": { "default": { "short": "default", "long": "default" } }
+	},
+	"seattle": {
+		"region": "US",
+		"subregion": "Washington",
+		"short": "seattle",
+		"long": "Seattle",
+		"url": "http://seattle.craigslist.org/",
+		"hoods": {
+			"see": {
+				"short": "see",
+				"long": "Seattle"
+			},
+			"est": {
+				"short": "est",
+				"long": "Eastside"
+			},
+			"sno": {
+				"short": "sno",
+				"long": "Snohomish CO"
+			},
+			"kit": {
+				"short": "kit",
+				"long": "Kitsap CO"
+			},
+			"tac": {
+				"short": "tac",
+				"long": "Tacoma"
+			},
+			"oly": {
+				"short": "oly",
+				"long": "Olympia"
+			},
+			"skc": {
+				"short": "skc",
+				"long": "South King"
+			}
+		}
+	}
+}
