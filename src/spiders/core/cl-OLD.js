@@ -2,39 +2,38 @@ const cheerio = require('cheerio'),
       Crawler = require('simplecrawler'),
       proxy   = require('./proxy.json');
 
-const specials = ['newyork', 'boston']; // these have special URLs (not 'apa')
-
 //
 // Craigslist spider
 // -----------------------------------------------------------------------------
 function crawlCraiglist(site, types) {
 
-  var results = {}, // convert to arrays
-      hoods   = Object.keys(site.hoods).map(h => site.hoods[h].short);
-      types   = Object.keys(types).map(t => types[t].short);
+  var posts = {}, // convert to arrays
+      hoods = Object.keys(site.hoods).map(h => site.hoods[h]);
+      types = Object.keys(types).map(t => types[t]);
+
+  const specials = ['newyork', 'boston']; // these have special URLs (not 'apa')
 
   types.map(type => {
-    results[type] = {}; // prepare results object
+    posts[type.short] = {};
 
     hoods.map(hood => {
-      results[type][hood] = new Promise(resolve => {
-
+      posts[type.short][hood.short] = new Promise(resolve => {
         //
         // business logic; gets posts
         //
 
-        let crawler, matchUrl;
+        let crawler, matchUrl, results = [];
 
         // form URLs for crawler
         if ( /default/.test(hood) ) {
-          crawler  = new Crawler(site.url + 'search/' + type);
-          matchUrl = new RegExp('\/search\/'+ type +'(\\?s=\d+)?', 'ig');
+          crawler  = new Crawler(site.url + 'search/' + type.short);
+          matchUrl = new RegExp('\/search\/'+ type.short +'(\\?s=\d+)?', 'ig');
 
         } else {
           // change "apa" to "aap" for special cases
-          let t    = (specials.indexOf(site.short) > -1 && type == 'apa') ? 'aap' : type;
-          crawler  = new Crawler(site.url + 'search/'+ hood +'/'+ t);
-          matchUrl = new RegExp('\/search\/'+ hood +'\/'+ t +'(\\?s=\d+)?', 'ig');
+          let t    = (specials.indexOf(site.short) > -1 && type.short == 'apa') ? 'aap' : type.short;
+          crawler  = new Crawler(site.url + 'search/'+ hood.short +'/'+ t);
+          matchUrl = new RegExp('\/search\/'+ hood.short +'\/'+ t +'(\\?s=\d+)?', 'ig');
         }
 
         // only fetch links to search results page(s)
@@ -48,16 +47,16 @@ function crawlCraiglist(site, types) {
           return [ $('a.button.next').first().attr('href') ];
         }
 
-        crawler.userAgent       = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0";
-        crawler.maxDepth        = 2;
-        crawler.maxConcurrency  = 3;
-        crawler.useProxy        = true;
-        crawler.proxyHostname   = proxy.host;
-        crawler.proxyPort       = proxy.port;
-        crawler.proxyUser       = proxy.user;
-        crawler.proxyPass       = proxy.pass;
-
-        let posts = [];
+        crawler.userAgent         = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0";
+        crawler.respectsRobotsTxt = false;
+        crawler.maxDepth          = 2;
+        crawler.maxConcurrency    = 3;
+        crawler.interval          = 3000;
+        crawler.useProxy          = true;
+        crawler.proxyHostname     = proxy.host;
+        crawler.proxyPort         = proxy.port;
+        // crawler.proxyUser         = proxy.user;
+        // crawler.proxyPass         = proxy.pass;
 
         // curate all posts from each page
         crawler.on('fetchcomplete', (queueItem, responseBuffer, response) => {
@@ -67,14 +66,14 @@ function crawlCraiglist(site, types) {
           let $    = cheerio.load(responseBuffer.toString('utf-8')),
               link = queueItem.url.replace(queueItem.path, '');
 
-          let newPosts = $('.result-row').get().map(el => {
+          let additions = $('.result-row').get().map(el => {
 
             // just jQuery things
             let xDate   = $(el).find('time').attr('datetime'),
                 xLink   = link + $(el).find('.result-info .result-title').attr('href'),
                 xTitle  = $(el).find('.result-info .result-title').text(),
                 xLocale = $(el).find('.result-info .result-hood').text()
-                          ? $(el).find('.result-info .result-hood').text().slice(2, -1)
+                          ? $(el).find('.result-info .result-hood').text().trim().slice(1, -1)
                           : '',
                 xPrice  = parseInt($(el).find('.result-info .result-price').text().slice(1)) || 0,
                 xPic    = $(el).has('.result-image.empty').length ? false : true;
@@ -90,47 +89,43 @@ function crawlCraiglist(site, types) {
               price:  xPrice,
               pic:    xPic,
               site:   site.short,
-              hood:   hood,
-              type:   type
+              hood:   hood.short,
+              type:   type.short
             };
           });
 
-          // add newPosts to posts variable
-          posts = posts.concat(newPosts);
+          results = results.concat(additions); // add newPosts to posts variable
         });
 
-        crawler.on('complete', () => {
-          resolve(posts);
-        });
-
-        // start the car
-        crawler.start();
+        crawler.on('fetch404', (queueItem, responseObject) => console.error('Error 404: '+ queueItem.url));
+        crawler.on('fetch410', (queueItem, responseObject) => console.error('Error 410: '+ queueItem.url));
+        crawler.on('complete', () => resolve(results));
+        crawler.start(); // start the car
       });
     });
   });
 
   var arr = [];
 
-  Object.keys(results).map(type => {
-    Object.keys(results[type]).map(hood => {
-
+  Object.keys(posts).map(type => {
+    Object.keys(posts[type]).map(hood => {
       // resolve all promises to fetch posts
-      arr.push(results[type][hood].then(posts => {
-        results[type][hood] = posts;
+      arr.push(posts[type][hood].then(results => {
+
+        if (!results.length) console.log('FUCK @ posts:'+site.short+':'+type+':'+hood)
+
+        posts[type][hood] = results;
       }));
-      
     });
   });
 
   return Promise.all(arr)
     .then(() => {
-
-      // return object with query data
       return {
         site:    site,
         types:   types,
         hoods:   hoods,
-        results: results
+        posts:   posts
       }
     });
 }

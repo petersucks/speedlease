@@ -1,8 +1,7 @@
 import redis from 'redis';
 
 const client = redis.createClient();
-
-client.on('error', (err) => console.err(err));
+client.on('error', (err) => console.error(err));
 
 function getPosts({ site, type, hood }) {
 

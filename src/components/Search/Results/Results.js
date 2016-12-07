@@ -33,7 +33,7 @@ class Results extends Component {
                         <th style={{textAlign:'right'}}>Rent</th>
                         <th>Title</th>
                         <th>Locale</th>
-                        <th>Age</th>
+                        <th>Posted</th>
                     </tr>
                 </thead>
                 <tfoot>
@@ -42,7 +42,7 @@ class Results extends Component {
                         <th>Rent</th>
                         <th>Title</th>
                         <th>Locale</th>
-                        <th>Age</th>
+                        <th>Posted</th>
                     </tr>
                 </tfoot>
                 <tbody>
