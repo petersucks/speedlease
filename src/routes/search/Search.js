@@ -8,11 +8,13 @@ import Search from '../../components/Search'
 function RootSearch({ search, id }) {
   return (
     <Layout>
-      <div className="container">
-        <h1 className="title is-1">Search</h1>
-        <Search search={search} id={id} />
+      <section className="section">
+        <div className="container">
+          <h1 className="title is-1">Search</h1>
+          <Search search={search} id={id} />
+        </div>
         <script src="https://checkout.stripe.com/checkout.js"></script>
-      </div>
+      </section>
     </Layout>
   );
 }

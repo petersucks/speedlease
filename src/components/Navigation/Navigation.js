@@ -3,6 +3,7 @@ import cx from 'classnames';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Navigation.css';
 import Link from '../Link';
+import logoUrl from '../../public/sl.png';
 
 function Navigation({ className }) {
   return (
@@ -10,8 +11,8 @@ function Navigation({ className }) {
       <div className="container">
       <nav className="nav" role="navigation">
         <div className="nav-left">
-          <Link className="is-brand" to="/">
-            <h1 style={{color:'white'}}>SpeedLease</h1>
+          <Link className="nav-item is-brand" to="/">
+            <img src={logoUrl} />
           </Link>
         </div>
         <span className="nav-toggle">
@@ -20,6 +21,11 @@ function Navigation({ className }) {
           <span></span>
         </span>
         <div className="nav-right nav-menu">
+          <a className="nav-item" href="https://github.com/">
+            <span className="is-icon">
+              <i className="fa fa-github"></i>
+            </span>
+          </a>
           <Link className="nav-item" to="/about">About</Link>
           <Link className="nav-item is-active" to="/search">Search</Link>
         </div>

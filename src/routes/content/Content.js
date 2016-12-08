@@ -6,12 +6,12 @@ import s from './Content.css';
 function Content({ path, title, content }) {
   return (
     <Layout>
-      <div className={s.root}>
-        <div className={s.container}>
-          {title && path !== '/' && <h1>{title}</h1>}
+      <section className="section">
+        <div className="container">
+          {title && path !== '/' && <h1 className="title is-1">{title}</h1>}
           <div dangerouslySetInnerHTML={{ __html: content }} />
         </div>
-      </div>
+      </section>
     </Layout>
   );
 }

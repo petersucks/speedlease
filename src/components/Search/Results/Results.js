@@ -26,13 +26,13 @@ class Results extends Component {
         }
         
         return (
-            <table className="table is-striped">
+            <table className="table is-striped is-marginless">
                 <thead>
                     <tr>
                         <th>Image</th>
                         <th style={{textAlign:'right'}}>Rent</th>
                         <th>Title</th>
-                        <th>Locale</th>
+                        <th className="is-hidden-touch">Locale</th>
                         <th>Posted</th>
                     </tr>
                 </thead>
@@ -41,7 +41,7 @@ class Results extends Component {
                         <th>Image</th>
                         <th>Rent</th>
                         <th>Title</th>
-                        <th>Locale</th>
+                        <th className="is-hidden-touch">Locale</th>
                         <th>Posted</th>
                     </tr>
                 </tfoot>

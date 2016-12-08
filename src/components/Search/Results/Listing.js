@@ -9,12 +9,12 @@ class Listing extends Component {
             age = moment(this.props.post.date).from(moment());
         return (
             <tr>
-                <td className="is-icon">
+                <td className="is-icon" style={{padding:'8px 10px'}}>
                     <i className={pics ? "fa fa-camera-retro" : "fa fa-times"} style={!pics ? {color:'#ff3860'} : {}}></i>
                 </td>
                 <td style={{textAlign:'right'}}><strong>{this.props.post.price}</strong></td>
                 <td><a href={this.props.post.link}>{this.props.post.title}</a></td>
-                <td>{this.props.post.locale}</td>
+                <td className="is-hidden-touch">{this.props.post.locale}</td>
                 <td style={{minWidth:'120px'}}><strong>{age}</strong></td>
             </tr>
         )

@@ -49,7 +49,7 @@ class Criteria extends Component {
     
     if (this.props.id) {
       button = (
-        <a className={loading} onClick={this.props.update}>
+        <a className={loading} onClick={this.props.update} style={{width:'100%',height:'36px'}}>
           <span className="icon"><i className="fa fa-check"></i></span>
           <span>{'Save Criteria'}</span>
         </a>) }
@@ -58,84 +58,113 @@ class Criteria extends Component {
       
 
     return (
-      <div className="columns">
-        <div className="column is-one-third">
+      <div>
+        <div className="columns">
+          <div className="column is-one-third">
 
-          <div className={s.criteria}>
+            <div className={s.criteria}>
 
-            {button}
+              {button}
 
-            {/* site */}
-            <DropdownList
-              valueField='short' textField='long'
-              data={rosterList}
-              defaultValue={site} 
-              onChange={val => {
-                let hoods = roster[val.short]['hoods'],
-                    newHood = hoods[Object.keys(hoods)[0]].short, /* get default hood */
-                    newSite = val.short;
-                this.props.setCriteria({
-                  site: newSite,
-                  hood: newHood
-                });
-              }} />
+              {/* site */}
+              <DropdownList
+                valueField='short' textField='long'
+                data={rosterList}
+                defaultValue={site} 
+                onChange={val => {
+                  let hoods = roster[val.short]['hoods'],
+                      newHood = hoods[Object.keys(hoods)[0]].short, /* get default hood */
+                      newSite = val.short;
+                  this.props.setCriteria({
+                    site: newSite,
+                    hood: newHood
+                  });
+                }} />
 
-            {/* hood */}
-            <DropdownList
-              disabled={hood.short == 'default'}
-              data={hoodsList}
-              value={hood}
-              textField={'long'}
-              valueComponent={HoodValue}
-              onChange={val => {
-                let newHood = val.short;
-                this.props.setCriteria({
-                  hood: newHood
-                });
-              }}/>
+              {/* hood */}
+              <DropdownList
+                disabled={hood.short == 'default'}
+                data={hoodsList}
+                value={hood}
+                textField={'long'}
+                valueComponent={HoodValue}
+                onChange={val => {
+                  let newHood = val.short;
+                  this.props.setCriteria({
+                    hood: newHood
+                  });
+                }}/>
 
-            {/* type */}
-            <DropdownList
-              valueField='short' textField='long'
-              data={typesList}
-              defaultValue={type}
-              onChange={val => {
-                let newType = val.short;
-                this.props.setCriteria({
-                  type: newType,
-                });
-              }} />
+              {/* type */}
+              <DropdownList
+                valueField='short' textField='long'
+                data={typesList}
+                defaultValue={type}
+                onChange={val => {
+                  let newType = val.short;
+                  this.props.setCriteria({
+                    type: newType,
+                  });
+                }} />
 
-            {/* price:min */}
-            <NumberPicker
-              format='-$#,###'
-              defaultValue={min || 0}
-              min={0}
-              max={max}
-              step={100} 
-              onChange={val => {
-                this.props.setCriteria({
-                  min: val
-                });
-              }} />
+              {/* price:min */}
+              <NumberPicker
+                format='-$#,###'
+                defaultValue={min || 0}
+                min={0}
+                max={max}
+                step={100} 
+                onChange={val => {
+                  this.props.setCriteria({
+                    min: val
+                  });
+                }} />
 
-            {/* price:max */}
-            <NumberPicker
-              format='-$#,###'
-              defaultValue={max || 3000}
-              min={min}
-              max={99999}
-              step={100}
-              onChange={val => {
-                this.props.setCriteria({
-                  max: val
-                });
-              }} />
+              {/* price:max */}
+              <NumberPicker
+                format='-$#,###'
+                defaultValue={max || 3000}
+                min={min}
+                max={99999}
+                step={100}
+                onChange={val => {
+                  this.props.setCriteria({
+                    max: val
+                  });
+                }} />
+            </div>
+            
           </div>
-          
+
+          <div className="column is-two-thirds">
+            <nav className="level is-mobile is-vcentered">
+              <div className="level-item has-text-centered">
+                <p className="heading">results</p>
+                <p className="title is-1">{this.props.info.postCount}</p>
+              </div>
+              <div className="level-item has-text-centered">
+                <p className="heading">type</p>
+                <span className="icon is-large"><i className="fa fa-home"></i></span>
+              </div>
+              <div className="level-item has-text-centered">
+                <p className="heading">city</p>
+                <span className="icon is-large"><i className="fa fa-building"></i></span>
+              </div>
+              <div className="level-item has-text-centered">
+                <p className="heading">heat</p>
+                <p className="title is-1"><strong>8.9</strong>/10</p>
+              </div>
+            </nav>
+          </div>
         </div>
-        <div className="column is-two-thirds">
-          <h1 className="title is-1">{this.props.info.postCount}</h1>
+
+        <div className="columns" style={{marginBottom:'10px'}}>
+          <div className="column">
+          <div className="notification is-danger">
+            <span className={s.reminder}>Your search has not been saved. Changes will be discarded if you leave this page.</span>
+            <a className="button is-danger is-inverted">Save Now</a>
+          </div>
+          </div>
         </div>
       </div>
     )

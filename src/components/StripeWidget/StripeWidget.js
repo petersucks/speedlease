@@ -43,7 +43,7 @@ class StripeWidget extends Component {
         allowRememberMe={false}
         stripeKey={stripeKey.public}>
 
-        <a className={this.props.loadingClass}>
+        <a className={this.props.loadingClass}  style={{width:'100%',height:'36px'}}>
           <span className="icon"><i className="fa fa-check"></i></span>
           <span>Save This Search</span>
         </a>

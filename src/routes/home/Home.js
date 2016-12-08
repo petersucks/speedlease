@@ -3,7 +3,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import Layout from '../../components/Layout';
 import s from './Home.css';
 
-function Home({ news }) {
+function Home() {
   return (
     <Layout>
       <div className={s.root}>
@@ -14,13 +14,5 @@ function Home({ news }) {
     </Layout>
   );
 }
-
-Home.propTypes = {
-  news: PropTypes.arrayOf(PropTypes.shape({
-    title: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-    contentSnippet: PropTypes.string,
-  })).isRequired,
-};
 
 export default withStyles(s)(Home);
